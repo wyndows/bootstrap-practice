@@ -1,0 +1,89 @@
+/**
+* using code from Rochelle Lewis
+**/
+
+/***
+* header styles
+***/
+header {
+	background-color: black;
+}
+
+#main-menu {
+	color: greenyellow;
+}
+
+a {
+	color: greenyellow;
+}
+
+/***
+* body styles
+***/
+main {
+	padding: 3rem 0;
+	background-color: lightgrey;
+}
+
+h4 {
+	text-align: center;
+}
+
+div.col-xs-12.well.text-center {
+	background: yellow;
+	border-radius: 6px;
+}
+
+div.col-md-3 div.well {
+	background: sandybrown;
+	border-radius: 6px;
+}
+
+div.col-md-6 div.well {
+	background: cadetblue;
+	border-radius: 6px;
+}
+
+
+/***
+* footer styles
+***/
+footer {
+	background-color: black;
+	color: greenyellow;
+	padding: 2rem 0;
+
+}
+
+.foot-content {
+	color: pink;
+	border: 1px solid;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.copyright {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
